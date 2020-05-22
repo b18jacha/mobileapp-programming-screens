@@ -3,6 +3,7 @@ package com.example.screens;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.renderscript.Sampler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -18,7 +19,8 @@ public class SecondActivity extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             String name = extras.getString("name");
-            textView.setText(name);
+            String age = extras.getString("age");
+            textView.setText(name+age);
         }
 
         Button close = findViewById(R.id.buttonSecondActivityClose);
