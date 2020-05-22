@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Screens</string>
+    <string name="switch_to_2nd_activity">Switch to 2nd Activity</string>
+    <string name="close_second_activity">Close Second Activity</string>
+    <string name="namefrommainactivity">nameFromMainActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
